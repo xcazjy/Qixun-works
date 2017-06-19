@@ -1,0 +1,308 @@
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #41454d;
+}
+
+ul {
+  list-style: none;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #000;
+}
+
+body,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+#banner {
+  position: relative;
+  background-image: url(img/friendcircle-banner.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 210px;
+}
+
+.name-top {
+  position: absolute;
+  height: 48px;
+  right: 16px;
+  bottom: 16px;
+}
+
+.name {
+  float: left;
+  color: #fff;
+  line-height: 47px;
+  text-shadow: 1px 1px rgba(0, 0, 0, .7);
+}
+
+.cook {
+  background-image: url(img/Cook.png);
+  background-repeat: no-repeat;
+  background-size: 644px 3500px;
+}
+
+.cook1 {
+  background-image: url(img/Cook.png);
+  background-repeat: no-repeat;
+  background-size: 500px 3078px;
+}
+
+.top {
+  float: right;
+  margin-left: 12px;
+  width: 47px;
+  height: 47px;
+  background-position: -54px -700px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
+
+.icon-red {
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background-color: red;
+}
+
+.shower {
+  margin: 16px 16px 0 16px;
+}
+
+.box {
+  border-bottom: .5px solid rgba(0, 0, 0, .1);
+}
+
+.box-1-l {
+  float: left;
+  width: 40px;
+  height: 40px;
+  background-position: -59px -708px;
+  border-radius: 4px;
+}
+
+.box-1-r {
+  color: #41454d;
+  margin-left: 48px;
+}
+
+.r-name {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.r-tip {
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+.r-icon {
+  float: left;
+  width: 40px;
+  height: 40px;
+  background-position: -127px -746px;
+}
+
+.r-box {
+  height: 40px;
+  margin-top: 8px;
+  padding: 6px;
+  background-color: #f7f7f7;
+}
+
+.r-text {
+  margin-left: 6px;
+  font-size: 13px;
+  line-height: 39px;
+}
+
+.r-zan {
+  height: 17px;
+  margin: 12px 0;
+  font-size: 12px;
+  color: #80858c;
+}
+
+.r-zan a {
+  line-height: 12px;
+}
+
+.r-zan-l,
+.r-zan-l-2,
+.r-zan-l-3,
+.r-zan-l-4,
+.r-zan-r {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+}
+
+.r-zan-l,
+.r-zan-l-2,
+.r-zan-l-3,
+.r-zan-l-4 {
+  background-position: -85px -1790px;
+}
+
+.r-zan-r {
+  background-position: -150px -1790px;
+}
+
+.r-zan a {
+  width: 50px;
+  margin-left: 21px;
+  line-height: 17px;
+}
+
+.r-zan i {
+  position: absolute;
+}
+
+.r-time {
+  font-size: 12px;
+  color: #acb1b7;
+  margin-top: 12px;
+}
+
+.word a {
+  font-size: 14px;
+  color: #5bafff;
+}
+
+.word span {
+  font-size: 14px;
+  color: #41454d;
+}
+
+.hid {
+  display: none;
+}
+
+.show,
+.zoom {
+  font-size: 12px;
+  color: #acb1b7;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.show span,
+.zoom span {
+  margin-left: 4px;
+}
+
+.r-time-2,
+.r-time-3,
+.r-time-4 {
+  font-size: 12px;
+  color: #acb1b7;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+.one,
+.four,
+.seven {
+  margin-top: 8px;
+}
+
+.one {
+  width: 172px;
+  height: 172px;
+  background-position: -86px -1051px;
+}
+
+.four li {
+  float: left;
+  width: 134px;
+  height: 134px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+
+.four ul:first-child li:first-child {
+  background-position: -88px -2248px;
+}
+
+.four ul:first-child li:last-child {
+  background-position: -206px -2248px;
+}
+
+.four ul:last-child li:first-child {
+  background-position: -88px -2419px;
+}
+
+.four ul:last-child li:last-child {
+  background-position: -206px -2419px;
+}
+
+.seven li {
+  float: left;
+  width: 88px;
+  height: 88px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+
+.seven ul:first-child li:first-child {
+  background-position: -88px -2248px;
+}
+
+.seven ul:first-child li:nth-child(2) {
+  background-position: -88px -2248px;
+}
+
+.seven ul:first-child li:last-child {
+  background-position: -206px -2248px;
+}
+
+.seven ul:nth-child(2) li:first-child {
+  background-position: -206px -2248px;
+}
+
+.seven ul:nth-child(2) li:nth-child(2) {
+  background-position: -206px -2248px;
+}
+
+.seven ul:nth-child(2) li:last-child {
+  background-position: -206px -2248px;
+}
+
+.seven ul:last-child li:first-child {
+  background-position: -88px -2419px;
+}
+
+/*.seven ul:last-child li:nth-child(2){
+background-position: -88px -2419px;
+}
+
+.seven ul:last-child li:last-child{
+background-position: -206px -2419px;
+}*/
+.clearfix::before,
+.clearfix::after {
+  display: table;
+  content: "";
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+.box-bottom {
+  margin-top: 12px;
+  margin-bottom: 16px;
+  font-size: 12px;
+  color: #acb1b7;
+  text-align: center;
+}
